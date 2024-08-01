@@ -13,6 +13,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+.grade-cards {
+    display: flex;
+    width: 80%;
+    margin-inline: auto;
+}
+
 @media (min-width: 600px) {
     .form-login {
         width: 30%;

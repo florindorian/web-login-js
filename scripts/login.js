@@ -20,7 +20,7 @@ function login() {
     if (email !== email_admin || senha_admin !== senha) {
         window.alert('Email ou senha incorretas!');
     } else {
-        window.location.href = 'home.html';
+        window.location.href = './pages/home.html';
     }
 }
 
